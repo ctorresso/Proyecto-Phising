@@ -39,7 +39,6 @@ public class ExploradorP01 {
         }
         BufferedReader in1= new BufferedReader(fileReader1);
         String st;
-        int tot;
         int counter=0;
 
         //Comparador palabra con frase
