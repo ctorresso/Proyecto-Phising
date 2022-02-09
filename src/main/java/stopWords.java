@@ -131,6 +131,7 @@ public class stopWords {
                         System.out.printf("%2.3f  segundos, %2d lineas y %3d palabras\n",
                                 tiempoEjecucion / 1000.00, lineCount, wordCount - numberCount);
                         // Mostrar total de palabras diferentes
+
                         int denom=wordCount-numberCount;
                         double porcentaje=(double) listaSinStopsWords.size()/denom;
                         System.out.printf("%2d palabras diferentes\n", list.size());
