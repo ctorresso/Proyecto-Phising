@@ -119,7 +119,6 @@ public class stopWords {
 
                             }
 
-
                         }
 
                         // Obtener tiempo de ejecución
@@ -142,8 +141,6 @@ public class stopWords {
                     } catch (IOException ex) {
                         System.out.println(ex.getMessage());
                     }
-
-
 
                 }
 
